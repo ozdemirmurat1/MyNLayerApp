@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace NLayer.Core.Models
 {
-    public class ProductFeature
+    public class ProductFeature:BaseEntity
     {
-        public int Id { get; set; }
         public string Color { get; set; }
         public int Height { get; set; }
         public int Width { get; set; }
